@@ -2,7 +2,6 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -12,14 +11,17 @@ body {
 	margin: auto;
 }
 .postcard-header {
+	justify-content: space-between;
 	display: flex;
+	align-items: center;
+	padding: 5px;
 }
 .postcard-header h1 {
 	width: 70%;
 }
 .postcard-header img {
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 }
 .postcard-body {
 	display: flex;
